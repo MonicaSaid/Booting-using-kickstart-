@@ -11,3 +11,12 @@
 #firewall-cmd --add-service=http
 #firewall-cmd --reload
 #setenforce 0
+
+
+create new machine with specifications :
+RAM: 2GB
+Processor: 1
+Hard Disk: 40GB
+
+at grub2 menu : press tab
+add : linux ks=http://192.168.180.140/pub/anaconda-ks.cfg
