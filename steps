@@ -1,0 +1,13 @@
+#sudo yum install httpd
+#sudo enable --now httpd
+#sudo mkdir /var/www/html/pub
+#cp anaconda-ks.cfg /var/www/html/pub
+#mount /dec/cdrom  /mnt/
+#cd /mnt/
+#cp -arv * /var/www/html/pub
+#umount /mnt
+#chmod 777 /var/www/html/pub
+#chmod 777 /var/www/html/pub/anaconda-ks.cfg
+#firewall-cmd --add-service=http
+#firewall-cmd --reload
+#setenforce 0
