@@ -2,7 +2,7 @@
 #sudo enable --now httpd
 #sudo mkdir /var/www/html/pub
 #cp anaconda-ks.cfg /var/www/html/pub
-#mount /dec/cdrom  /mnt/
+#mount /dev/cdrom  /mnt/
 #cd /mnt/
 #cp -arv * /var/www/html/pub
 #umount /mnt
